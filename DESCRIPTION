@@ -1,12 +1,14 @@
 Package: rintimg
 Type: Package
-Title: What the Package Does (Title Case)
+Title: View Images on Full Screen.
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: c(
+    person("Mohamed El Fodil", "Ihaddaden", email = "ihaddaden.fodeil@gmail.com", role = c("aut", "cre")),
+    person("Tim", "Holman", role = c("ctb", "cph"), comment = "intense-images.js library developer")) 
+Maintainer: Mohamed El Fodil Ihaddaden <ihaddaden.fodeil@gmail.com>
+Description: Allows the user to view an image in full screen when clicking on it in 'RMarkdown' documents and 'shiny' applications. 
+  The package relies on the 'JavaScript' library 'intense-images'. See <https://tholman.com/intense-images/> for more information.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: 
