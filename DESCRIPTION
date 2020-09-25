@@ -1,6 +1,6 @@
 Package: rintimg
 Type: Package
-Title: View Images on Full Screen.
+Title: View Images on Full Screen in 'RMarkdown' Documents and 'shiny' Applications
 Version: 0.1.0
 Authors@R: c(
     person("Mohamed El Fodil", "Ihaddaden", email = "ihaddaden.fodeil@gmail.com", role = c("aut", "cre")),

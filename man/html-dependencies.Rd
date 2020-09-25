@@ -2,10 +2,10 @@
 % Please edit documentation in R/intense_dependency.R
 \name{intense_dependency}
 \alias{intense_dependency}
-\title{Create an HTML dependency for intense-images}
+\title{Create an HTML dependency for intense-images.js}
 \usage{
 intense_dependency()
 }
 \description{
-Create an HTML dependency for intense-images
+Create an HTML dependency for intense-images.js
 }
