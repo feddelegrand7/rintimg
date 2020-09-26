@@ -2,6 +2,7 @@
 
 #' Viewing images on full screen
 #'
+#' @param target By default, the function intensifies all the images (<img> tag) however the user can target specific classes
 #' @return images that when clicked can be viewed on full screen no matter their initial size
 #' @export
 #'
@@ -31,21 +32,30 @@
 
 
 
-img_intensify <- function(){
+img_intensify <- function(target = "img"){
+
+
+
 
 
 htmltools::tagList(
 
   intense_dependency(),
 
-  htmltools::tags$script(htmltools::HTML("
+  htmltools::tags$script(htmltools::HTML(glue::glue(
 
- window.onload = function() {
+    "
+ window.onload = function() {{
 
-  var element = document.querySelectorAll( 'img' );
+  var element = document.querySelectorAll( '{target}' );
 	Intense( element );
 
-    }"))
+    }}"
+
+
+
+
+  )))
 
 
 

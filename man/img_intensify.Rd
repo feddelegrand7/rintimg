@@ -4,7 +4,10 @@
 \alias{img_intensify}
 \title{Viewing images on full screen}
 \usage{
-img_intensify()
+img_intensify(target = "img")
+}
+\arguments{
+\item{target}{By default, the function intensifies all the images (<img> tag) however the user can target specific classes}
 }
 \value{
 images that when clicked can be viewed on full screen no matter their initial size
