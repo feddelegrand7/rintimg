@@ -35,9 +35,6 @@
 img_intensify <- function(target = "img"){
 
 
-
-
-
 htmltools::tagList(
 
   intense_dependency(),
