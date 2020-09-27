@@ -10,7 +10,6 @@
 #'
 #' if (interactive()) {
 #'
-#' library(shiny)
 #'
 #' ui <- fluidPage(
 #'
