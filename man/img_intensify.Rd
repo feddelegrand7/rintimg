@@ -19,7 +19,6 @@ Viewing images on full screen
 
 if (interactive()) {
 
-library(shiny)
 
 ui <- fluidPage(
 
