@@ -14,13 +14,10 @@ clicking on it. The package works on Rmd documents and Shiny
 applications. It’s extremely simple to implement: you only need to run
 one function : `img_intensify()`.
 
-You can install the development version of `rintimg`from
-[GitHub](https://github.com/) with:
+You can install `rintimg` from CRAN with:
 
 ``` r
-
-# install.packages("devtools")
-devtools::install_github("feddelegrand7/rintimg")
+install.packages("rintimg")
 ```
 
 # Demo
