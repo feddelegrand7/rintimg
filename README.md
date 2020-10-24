@@ -5,6 +5,24 @@
 
 <!-- badges: start -->
 
+[![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/rintimg)](https://cran.r-project.org/package=rintimg)
+
+[![CRAN\_time\_from\_release](https://www.r-pkg.org/badges/ago/rintimg)](https://cran.r-project.org/package=rintimg)
+
+[![CRAN\_latest\_release\_date](https://www.r-pkg.org/badges/last-release/rintimg)](https://cran.r-project.org/package=rintimg)
+
+[![metacran
+downloads](https://cranlogs.r-pkg.org/badges/rintimg)](https://cran.r-project.org/package=rintimg)
+
+[![metacran
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/rintimg)](https://cran.r-project.org/package=rintimg)
+
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://choosealicense.com/licenses/mit/)
+
+[![R
+badge](https://img.shields.io/badge/Build%20with-♥%20and%20R-purple)](https://github.com/feddelegrand7/rintimg)
+
+
 <!-- badges: end -->
 
 `rintimg` is an R wrapper of the
