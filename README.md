@@ -32,10 +32,6 @@ You can install `rintimg` from CRAN with:
 install.packages("rintimg")
 ```
 
-# Demo
-
-You can find a demo
-[here](https://ihaddadenfodil.com/post/introducing-the-rintimg-package-click-on-an-image-and-see-it-on-full-screen/).
 
 ## Code of Conduct
 
